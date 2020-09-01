@@ -5,9 +5,11 @@ Create, assign, edit and track service orders.
 ## development environment
 
 - Launch PostgreSQL locally: 
+
 `Docker run --name postgres --rm -e POSTGRES_PASSWORD=postgres -p 5432:5432 postgres:12.4-alpine`
 
 - Run core:
+
  `go run main.go`
 
 ### initial data
